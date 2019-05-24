@@ -41,6 +41,8 @@ body{
 }
 
 #chapter{
+	position: fixed;
+	top: 0;
 	font-size: 30px;
 	cursor: pointer;
 	padding: 5px 11px 5px 5px;
@@ -61,6 +63,11 @@ body{
 	position: fixed;
 	border-bottom: groove 5px #585528;
 	z-index: 2;
+}
+
+.header h1{
+	font-size: 30px;
+	color: white;
 }
 
 .header a{
@@ -90,8 +97,6 @@ body{
 	max-width: 285px;
 	font-size: 25px;
 	display: block;
-	position: relative;
-	left: 37%;
 	padding: 20px 40px;
 	background-color: black;
 	color: white;
@@ -120,7 +125,7 @@ body{
 
 .chapter pre{
 	display: inline-block;
-	font-size: 15px;
+	font-size: 20px;
 	text-align: center;
 	position: relative;
 	margin: 50px;
