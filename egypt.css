@@ -19,21 +19,25 @@ body{
 	overflow-x: hidden;
 	padding-top: 100px;
 	transition: 0.5s; 
+	opacity: 0.98;
 }
 
-.sidenav a{
-	padding: 8px 8px 8px 30px;
+.sidenav a,b{
+	padding: 8px 8px 8px 35px;
 	text-decoration: none;
 	font-size: 25px;
 	color: #818181;
 	display: block;
-	transition: 0.3s;
-}
+	transition: 0.5s;
 
+}
 .sidenav a:hover{
-	color: #f1f1f1
+	color: #f1f1f1;
+	background-color: #555;
 }
-
+.sidenav b:hover{
+	color: #f1f1f1;
+}
 .sidenav .closebtn{
 	position: absolute;
 	top: 0;
@@ -51,6 +55,7 @@ body{
 	background-color: #111;
 	color: #818181;
 	border-bottom-right-radius: 20px;
+	transition: 0.5s;
 }
 
 #chapter:hover{
